@@ -2,7 +2,7 @@
     "name": "naymin/api-football",
     "description": "api-football.com API container for laravel(Highly Inspired by grambas/football-data)",
     "require": {
-        "guzzlehttp/guzzle": "~6.0"
+        "guzzlehttp/guzzle": "~7.2.0"
     },
     "license": "MIT",
     "authors": [
