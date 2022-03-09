@@ -1,12 +1,12 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Naymin
- * Date: 6/25/19
- * Time: 3:55 PM
+ * User: jamesm
+ * Date: 09/01/22
+ * Time: 20:19 PM
  */
 
-namespace Naymin\APIfootball;
+namespace jamesm\APIfootball;
 
 use GuzzleHttp\Client;
 use Illuminate\Support\ServiceProvider;

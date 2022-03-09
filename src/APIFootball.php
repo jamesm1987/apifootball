@@ -1,12 +1,12 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: naymin
- * Date: 6/26/19
- * Time: 2:49 PM
+ * User: jamesm
+ * Date: 09/01/22
+ * Time: 08:20 PM
  */
 
-namespace Naymin\APIfootball;
+namespace jamesm\APIfootball;
 
 use GuzzleHttp\Client;
 
@@ -100,7 +100,7 @@ class APIFootball
      * @param integer $matchID
      * @return Collection
      */
-    public function getMatche(int $matchID)
+    public function getMatch(int $matchID)
     {
         $matche = $this->run("/v2/fixtures/id/{$matchID}");
         return collect($matche->api);

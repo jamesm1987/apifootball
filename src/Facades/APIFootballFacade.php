@@ -1,12 +1,12 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: naymin
+ * User: jamesm
  * Date: 6/26/19
  * Time: 4:07 PM
  */
 
-namespace Naymin\APIfootball\Facades;
+namespace jamesm\APIfootball\Facades;
 
 
 use Illuminate\Support\Facades\Facade;

@@ -5,7 +5,7 @@ api-football.com API Container for Laravel
 (Highly Inspired by grambas/football-data)
 
 ## Requirements
--  "guzzlehttp/guzzle": "~6.0"
+-  "guzzlehttp/guzzle": "~7.4.1"
 
 
 ## Install
@@ -13,7 +13,7 @@ api-football.com API Container for Laravel
 Via Composer
 
 ``` bash
-$ composer require naymin/api-football
+$ composer require jamesm/api-football
 ```
 
 ## Usage
@@ -30,11 +30,11 @@ APIFOOTBALL_API_KEY=
 add to config/app.php 
 ``` 
 'providers' => [
-  Naymin\APIfootball\APIFootballServiceProvider::class,
+  jamesm\APIfootball\APIFootballServiceProvider::class,
 ]
 
 'aliases' => [
-  'Football' =>Naymin\APIfootball\Facades\APIFootballFacade::class,
+  'Football' =>jamesm\APIfootball\Facades\APIFootballFacade::class,
 ]
 ```
 
@@ -83,7 +83,7 @@ Football::getMatches()
  * @param integer $matchID
  * @return Collection
  */
-Football::getMatche(int $matchID)
+Football::getMatch(int $matchID)
 
 
 
@@ -121,5 +121,5 @@ Football::getLeagueMatchesWithDate(int $leagueID,$date)
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[link-packagist]: https://github.com/nayminhtwe/apifootball
-[link-author]: https://github.com/nayminhtwe
+[link-packagist]: https://github.com/jamesm1987/apifootball
+[link-author]: https://github.com/jamesm1987
